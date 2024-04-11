@@ -1,5 +1,3 @@
-**Note:-** The datasets cannot be uploaded on Github due to their large file sizes. Download and unzip the data folder from Zenodo 
-
 # Obtaining raw data
 1. BRENDA raw data has been obtained from their website. Recently, they made .json format download for the database available. In this work, 'brenda_2022_2.json' is used. Also, raw data for compounds was obtained from https://www.brenda-enzymes.org/search_result.php?a=13 and placing a blank query. Thanks to samgoldman97 for the trick. Even with this some brenda compounds didn't have a known SMILES/InChi string. So, we also used the Pubchem id exchange service to map names (synonyms) to SMILES. All these are saved in ./data/raw/brenda/
 2. SABIO-rk raw data has been obtained using sbml exports from their website. Because only a 100 entries are shown in their website at a time, we manually exported a lot of sbml files from their website. Also, we scraped individual entry html files. These form the raw data. Saved in ./data/raw/sabio/
