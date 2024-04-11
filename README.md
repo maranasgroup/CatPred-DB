@@ -28,7 +28,7 @@ CatPred biorxiv pre-print:
 
 ## CatPred-DB datasets <a name="datasets"></a>
 
-### Directory information for datasets
+Datasets referenced in the publication can be found in these directories
 
     ./datasets/
     ├── processed               		# processed datasets one each for kcat, Km and Ki
