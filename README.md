@@ -30,7 +30,7 @@ CatPred biorxiv pre-print:
 
 ### Directory information for datasets
 
-├── datasets
+./datasets
     ├── processed               		# processed datasets one each for kcat, Km and Ki
     ├── splits                  		# training/validation/test dataset splits for kcat, Km and Ki
     ├── all_natural_metabolite_names.json 		# compiled names of natural metabolites from BRENDA
