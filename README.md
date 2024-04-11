@@ -28,15 +28,12 @@ CatPred biorxiv pre-print:
 
 ## CatPred-DB datasets <a name="datasets"></a>
 
-    ./datasets/
-	    ├── build                   # Compiled files (alternatively `dist`)
-	    ├── docs                    # Documentation files (alternatively `doc`)
-	    ├── src                     # Source files (alternatively `lib` or `app`)
-	    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-	    ├── tools                   # Tools and utilities
-	    ├── LICENSE
-	    └── README.md
-
+├── datasets
+    ├── processed               		# processed datasets one each for kcat, Km and Ki
+    ├── splits                  		# training/validation/test dataset splits for kcat, Km and Ki
+    ├── all_natural_metabolite_names.json 		# compiled names of natural metabolites from BRENDA
+    ├── metabolite_inchi_smiles_brenda_pubchem.tsv 	# compiled list of inchi and smiles strings for brenda molecules
+    
 
 # Obtaining raw data
 1. BRENDA raw data has been obtained from their website. Recently, they made .json format download for the database available. In this work, 'brenda_2022_2.json' is used. Also, raw data for compounds was obtained from https://www.brenda-enzymes.org/search_result.php?a=13 and placing a blank query. Thanks to samgoldman97 for the trick. Even with this some brenda compounds didn't have a known SMILES/InChi string. So, we also used the Pubchem id exchange service to map names (synonyms) to SMILES. All these are saved in ./data/raw/brenda/
