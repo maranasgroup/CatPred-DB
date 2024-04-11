@@ -18,6 +18,7 @@ This repository contains the datasets and scripts pertaining to the publication 
 </details>
 
 <details open><summary><b>Table of contents</b></summary>
+	
 - [CatPred-DB datasets](#datasets)
 - [CatPred-DB processing pipeline](#pipeline)
 - [License](#license)
