@@ -15,6 +15,13 @@ This repository contains the datasets and scripts pertaining to the publication 
 	journal = {bioRxiv}
 }
 ```
+</details>
+
+<details open><summary><b>Table of contents</b></summary>
+- [CatPred-DB datasets](#datasets)
+- [CatPred-DB processing pipeline](#pipeline)
+- [License](#license)
+</details>
 
 # Obtaining raw data
 1. BRENDA raw data has been obtained from their website. Recently, they made .json format download for the database available. In this work, 'brenda_2022_2.json' is used. Also, raw data for compounds was obtained from https://www.brenda-enzymes.org/search_result.php?a=13 and placing a blank query. Thanks to samgoldman97 for the trick. Even with this some brenda compounds didn't have a known SMILES/InChi string. So, we also used the Pubchem id exchange service to map names (synonyms) to SMILES. All these are saved in ./data/raw/brenda/
