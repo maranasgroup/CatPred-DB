@@ -1,5 +1,5 @@
 This repository contains the datasets and scripts pertaining to the publication 
-"CatPred: A comprehensive framework for deep learning in vitro enzyme kinetic parameters kcat, Km and Ki"
+> CatPred: A comprehensive framework for deep learning in vitro enzyme kinetic parameters kcat, Km and Ki
 
 [![DOI](https://img.shields.io/badge/DOI-10.1101/2024.03.10.584340-blue)](https://www.biorxiv.org/content/10.1101/2024.03.10.584340v2)
 
